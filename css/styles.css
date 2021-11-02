@@ -377,4 +377,5 @@ O TEXTO NÃO PRECISA SER RESPONSIVO EM TUDO
       z-index: 5 !important;
       position: fixed;
       top: -5vh;
+      pointer-events:none;
   }
