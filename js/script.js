@@ -70,8 +70,10 @@ $(window).scroll(function () {
 // INICIAR TOAST COM TIMEOUT:
 
 setTimeout(function () {
-    let myAlert = document.querySelector('.toast');
-    let bsAlert = new bootstrap.Toast(myAlert);
-    bsAlert.show();
+    let myAlert = document.getElementById('toast-promo-relampago'); 
+    if (myAlert !== null) { // previne que em paginas que não existam a div do toast, um erro não ocorra
+        let bsAlert = new bootstrap.Toast(myAlert);
+        bsAlert.show();
+    }
 }, 7000);
 

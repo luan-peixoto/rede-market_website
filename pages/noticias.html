@@ -4,9 +4,9 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <link href="css/bootstrap.css" rel="stylesheet">
-    <link href="css/styles.css" rel="stylesheet">
-    <link href="css/all.css" rel="stylesheet">
+    <link href="../css/bootstrap.css" rel="stylesheet">
+    <link href="../css/styles.css" rel="stylesheet">
+    <link href="../css/all.css" rel="stylesheet">
     <title>bootstrap</title>
 </head>
 
@@ -45,7 +45,7 @@
 
             <!--logo (desktop)-->
             <a class="navbar-brand d-none d-sm-block" href="/index.html">
-                <img class="img-fluid" src="images/logo_1.png" style="padding-top: 8px; padding-bottom: 8px;"
+                <img class="img-fluid" src="../images/logo_1.png" style="padding-top: 8px; padding-bottom: 8px;"
                     alt="super_market_logo">
             </a>
 
@@ -57,7 +57,7 @@
 
             <!--logo (mobile)-->
             <a class="navbar-brand d-block d-sm-none me-1" href="/index.html">
-                <img class="img-fluid" src="images/logo_2.png" alt="super_market_logo">
+                <img class="img-fluid" src="../images/logo_2.png" alt="super_market_logo">
             </a>
 
             <!--botao de pesquisa (mobile)-->
@@ -100,25 +100,25 @@
                     </li>
                     <hr class="mt-1 mb-1" />
                     <li class="nav-item">
-                        <a class="nav-link navbar-item-hover" href="/quem-somos.html">
+                        <a class="nav-link navbar-item-hover" href="/pages/quem-somos.html">
                             <h6 class="d-inline">Quem Somos</h6>
                         </a>
                     </li>
                     <hr class="mt-1 mb-1" />
                     <li class="nav-item">
-                        <a class="nav-link navbar-item-hover" href="/receitas.html">
+                        <a class="nav-link navbar-item-hover" href="/pages/receitas.html">
                             <h6 class="d-inline">Receitas</h6>
                         </a>
                     </li>
                     <hr class="mt-1 mb-1" />
                     <li class="nav-item">
-                        <a class="nav-link navbar-item-hover" href="/noticias.html">
+                        <a class="nav-link navbar-item-hover" href="/pages/noticias.html">
                             <h6 class="d-inline">Notícias</h6>
                         </a>
                     </li>
                     <hr class="mt-1 mb-1" />
                     <li class="nav-item">
-                        <a class="nav-link navbar-item-hover" href="/contato.html">
+                        <a class="nav-link navbar-item-hover" href="/pages/contato.html">
                             <h6 class="d-inline">Contato</h6>
                         </a>
                     </li>
@@ -128,7 +128,7 @@
                 </ul>
 
                 <div class="ms-5 d-none d-sm-block navbar-nav navbar-expand-sm">
-                    <a class="nav-item nav-link navbar-item-hover" href="/lojas.html">
+                    <a class="nav-item nav-link navbar-item-hover" href="/pages/lojas.html">
                         <i class="fas fa-map-marked-alt" style="color: #b91413; padding: 8px"></i>
                         <h6 class="d-sm-blo d-inline">Lojas</h6>
                     </a>
@@ -144,195 +144,182 @@
 
     </nav>
 
-
-    <!--img receitas-->
+    <!--img noticias-->
     <div>
-        <img class="w-100" src="images/receitas-page.png" alt="">
+        <img class="w-100" src="../images/noticias-page.png" alt="">
     </div>
 
-
-    <!--receitas-->
+    <!--notícias-->
     <div class="p-5 d-flex justify-content-center">
         <div class="container">
-
-            <div class="row mb-3">
-                <nav aria-label="breadcrumb">
-                    <ol class="breadcrumb d-flex justify-content-center">
-                        <li class="breadcrumb-item" aria-current="page"><a class="navbar-item-hover"
-                                style="color:rgb(65, 65, 65);" href="#">Todos</a></li>
-                        <li class="breadcrumb-item"><a class="navbar-item-hover" style="color:rgb(65, 65, 65);"
-                                href="#">Família</a></li>
-                        <li class="breadcrumb-item"><a class="navbar-item-hover" style="color:rgb(65, 65, 65);"
-                                href="#">Gourmet</a></li>
-                        <li class="breadcrumb-item"><a class="navbar-item-hover" style="color:rgb(65, 65, 65);"
-                                href="#">Data</a></li>
-                    </ol>
-                </nav>
-            </div>
 
 
             <div class="row">
 
-                <div class="col-md-6 col-lg-4 d-flex align-items-stretch mb-3 mb-sm-none">
-                    <div class="card receita-page-dif card-hover navbar-item-hover">
-                        <a href="/receita-1"><img id="card-img" class="card-img-top" src="images/receita-1.jpg"
-                                alt="Card image cap"></a>
-                        <div class="card-body">
-                            <div class="container p-3">
-                                <div class="row">
-                                    <div class="col-8 my-auto">
-                                        <a href="/receita-1" style="color: rgb(65, 65, 65);"
-                                            class="nav-link navbar-item-hover" aria-current="page" href="/index.html">
-                                            <strong style="font-size: 1.3em">Bolo de Aipim</strong>
-                                        </a>
-                                    </div>
-                                    <div class="col-4 my-auto">
-                                        <a id="btn-card" type="button" href="/receita-1" class="btn-receita">
+                <div class="col-sm-6 d-flex align-items-stretch mb-3 mb-sm-none">
+                    <div style="box-shadow: none !important;" class="card card-reto card-limpo">
+                        <img class="card-img-top w-100" src="../images/noticia-1.png" alt="Card image cap"></a>
+                        <div class="card-body p-0">
+                            <div class="caption">
+                                <a href="/noticia-1" style="color: #e74d57" class="nav-link navbar-item-hover"
+                                    aria-current="page">
+                                    <b style="font-size: 0.7em;">16/09/2021</b>
+                                </a>
+                            </div>
 
-                                            <i id="btn-inside" class="fas fa-angle-right"></i>
-                                        </a>
-                                    </div>
-                                </div>
+                            <div class="caption">
+                                <a href="/noticia-1" style="color: rgb(65, 65, 65);" class="nav-link navbar-item-hover"
+                                    aria-current="page">
+                                    <h4><b>Participe do Clean Up Day 2021</b></h4>
+                                </a>
+                            </div>
+
+                            <div class="caption">
+                                <p style="color:rgb(133, 133, 133); font-size: 0.9em" class="nav-link">Neste sábado, 18
+                                    de setembro, acontecerá o Clean Up Day 2021 (Dia Mundial de Limpeza), um movimento
+                                    cívico que reúne pessoas com intuito de promover a limpeza das praias da</p>
+                            </div>
+
+                        </div>
+                        <div class="card-footer p-0 footer-limpo">
+                            <div class="caption">
+                                <a href="/noticia-1" style="color: rgb(65, 65, 65);" class="nav-link navbar-item-hover"
+                                    aria-current="page" href="/index.html">
+                                    <p class="display-1" style="font-size: 0.80em;">VEJA MAIS</p>
+                                </a>
                             </div>
                         </div>
                     </div>
                 </div>
 
-                <div class="col-md-6 col-lg-4 d-flex align-items-stretch mb-3 mb-sm-none">
-                    <div class="card receita-page-dif card-hover navbar-item-hover">
-                        <a href="/receita-2"><img id="card-img" class="card-img-top" src="images/receita-2.jpg"
-                                alt="Card image cap"></a>
-                        <div class="card-body">
-                            <div class="container p-3">
-                                <div class="row">
-                                    <div class="col-8 my-auto">
-                                        <a href="/receita-2" style="color: rgb(65, 65, 65);"
-                                            class="nav-link navbar-item-hover" aria-current="page" href="/index.html">
-                                            <strong style="font-size: 1.3em">Curau de Milho</strong>
-                                        </a>
-                                    </div>
-                                    <div class="col-4 my-auto">
-                                        <a id="btn-card" type="button" href="/receita-2" class="btn-receita">
+                <div class="col-sm-6 d-flex align-items-stretch mb-3 mb-sm-none">
+                    <div style="box-shadow: none !important;" class="card card-reto card-limpo">
+                        <img class="card-img-top" src="../images/noticia-2.png" alt="Card image cap"></a>
+                        <div class="card-body p-0">
+                            <div class="caption">
+                                <a href="/noticia-2" style="color: #e74d57" class="nav-link navbar-item-hover"
+                                    aria-current="page">
+                                    <b style="font-size: 0.7em;">01/06/2021</b>
+                                </a>
+                            </div>
 
-                                            <i id="btn-inside" class="fas fa-angle-right"></i>
-                                        </a>
-                                    </div>
-                                </div>
+                            <div class="caption">
+                                <a href="/noticia-2" style="color: rgb(65, 65, 65);" class="nav-link navbar-item-hover"
+                                    aria-current="page">
+                                    <h4><b>Mito ou Verdade: o mel não tem prazo de validade?</b></h4>
+                                </a>
+                            </div>
+
+                            <div class="caption">
+                                <p style="color:rgb(133, 133, 133); font-size: 0.9em" class="nav-link">É Mito! O mel
+                                    apesar de parecer bom, ele estraga sim, ou seja, fermenta de uma forma bem mais
+                                    lenta que os demais produtos perecíveis. O ideal é consumi-lo em</p>
+                            </div>
+
+                        </div>
+                        <div class="card-footer p-0 footer-limpo">
+                            <div class="caption">
+                                <a href="/noticia-2" style="color: rgb(65, 65, 65);" class="nav-link navbar-item-hover"
+                                    aria-current="page" href="/index.html">
+                                    <p class="display-1" style="font-size: 0.80em;">VEJA MAIS</p>
+                                </a>
                             </div>
                         </div>
                     </div>
                 </div>
 
-                <div class="col-md-6 col-lg-4 d-flex align-items-stretch mb-3 mb-sm-none">
-                    <div class="card receita-page-dif card-hover navbar-item-hover">
-                        <a href="/receita-3"><img id="card-img" class="card-img-top" src="images/receita-3.jpg"
-                                alt="Card image cap"></a>
-                        <div class="card-body">
-                            <div class="container p-3">
-                                <div class="row">
-                                    <div class="col-8 my-auto">
-                                        <a href="/receita-3" style="color: rgb(65, 65, 65);"
-                                            class="nav-link navbar-item-hover" aria-current="page" href="/index.html">
-                                            <strong style="font-size: 1.3em">Amendoim Doce</strong>
-                                        </a>
-                                    </div>
-                                    <div class="col-4 my-auto">
-                                        <a id="btn-card" type="button" href="/receita-3" class="btn-receita">
+                <div class="col-sm-6 d-flex align-items-stretch mb-3 mb-sm-none">
+                    <div style="box-shadow: none !important;" class="card card-reto card-limpo">
+                        <img class="card-img-top" src="../images/noticia-3.jpg" alt="Card image cap"></a>
+                        <div class="card-body p-0">
+                            <div class="caption">
+                                <a href="/noticia-3" style="color: #e74d57" class="nav-link navbar-item-hover"
+                                    aria-current="page">
+                                    <b style="font-size: 0.7em;">30/05/2021</b>
+                                </a>
+                            </div>
 
-                                            <i id="btn-inside" class="fas fa-angle-right"></i>
-                                        </a>
-                                    </div>
-                                </div>
+                            <div class="caption">
+                                <a href="/noticia-3" style="color: rgb(65, 65, 65);" class="nav-link navbar-item-hover"
+                                    aria-current="page">
+                                    <h4><b>Dicas de Limpeza para salas</b></h4>
+                                </a>
+                            </div>
+
+                            <div class="caption">
+                                <p style="color:rgb(133, 133, 133); font-size: 0.9em" class="nav-link">Todo mundo ama
+                                    uma casa limpa e cheirosa. Mas você sabe fazer a limpeza da forma correta? O ideal é
+                                    limpar um cômodo por vez. Dessa forma você economiza tempo</p>
+                            </div>
+
+                        </div>
+                        <div class="card-footer p-0 footer-limpo">
+                            <div class="caption">
+                                <a href="/noticia-3" style="color: rgb(65, 65, 65);" class="nav-link navbar-item-hover"
+                                    aria-current="page" href="/index.html">
+                                    <p class="display-1" style="font-size: 0.80em;">VEJA MAIS</p>
+                                </a>
                             </div>
                         </div>
                     </div>
                 </div>
 
-                <div class="col-md-6 col-lg-4 d-flex align-items-stretch mb-3 mb-sm-none">
-                    <div class="card receita-page-dif card-hover navbar-item-hover">
-                        <a href="/receita-4"><img id="card-img" class="card-img-top" src="images/receita-4.jpg"
-                                alt="Card image cap"></a>
-                        <div class="card-body">
-                            <div class="container p-3">
-                                <div class="row">
-                                    <div class="col-8 my-auto">
-                                        <a href="/receita-4" style="color: rgb(65, 65, 65);"
-                                            class="nav-link navbar-item-hover" aria-current="page" href="/index.html">
-                                            <strong style="font-size: 1.3em">Quentão de Vinho</strong>
-                                        </a>
-                                    </div>
-                                    <div class="col-4 my-auto">
-                                        <a id="btn-card" type="button" href="/receita-4" class="btn-receita">
+                <div class="col-sm-6 d-flex align-items-stretch mb-3 mb-sm-none">
+                    <div style="box-shadow: none !important;" class="card card-reto card-limpo">
+                        <img class="card-img-top" src="../images/noticia-4.jpg" alt="Card image cap"></a>
+                        <div class="card-body p-0">
+                            <div class="caption">
+                                <a href="/noticia-4" style="color: #e74d57" class="nav-link navbar-item-hover"
+                                    aria-current="page">
+                                    <b style="font-size: 0.7em;">25/05/2021</b>
+                                </a>
+                            </div>
 
-                                            <i id="btn-inside" class="fas fa-angle-right"></i>
-                                        </a>
-                                    </div>
-                                </div>
+                            <div class="caption">
+                                <a href="/noticia-4" style="color: rgb(65, 65, 65);" class="nav-link navbar-item-hover"
+                                    aria-current="page">
+                                    <h4><b>Cuidados com os Pets no Inverno</b></h4>
+                                </a>
+                            </div>
+
+                            <div class="caption">
+                                <p style="color:rgb(133, 133, 133); font-size: 0.9em" class="nav-link">O inverno está
+                                    chegando, e não somos apenas nós que sentimos com a queda datemperatura. Os pets
+                                    também sofrem com essa mudança, deixando-os até resfriados. E por isso, também
+                                    precisam de</p>
+                            </div>
+
+                        </div>
+                        <div class="card-footer p-0 footer-limpo">
+                            <div class="caption">
+                                <a href="/noticia-4" style="color: rgb(65, 65, 65);" class="nav-link navbar-item-hover"
+                                    aria-current="page" href="/index.html">
+                                    <p class="display-1" style="font-size: 0.80em;">VEJA MAIS</p>
+                                </a>
                             </div>
                         </div>
                     </div>
                 </div>
-
-                <div class="col-md-6 col-lg-4 d-flex align-items-stretch mb-3 mb-sm-none">
-                    <div class="card receita-page-dif card-hover navbar-item-hover">
-                        <a href="/receita-5"><img id="card-img" class="card-img-top" src="images/receita-5.jpg"
-                                alt="Card image cap"></a>
-                        <div class="card-body">
-                            <div class="container p-3">
-                                <div class="row">
-                                    <div class="col-8 my-auto">
-                                        <a href="/receita-5" style="color: rgb(65, 65, 65);"
-                                            class="nav-link navbar-item-hover" aria-current="page" href="/index.html">
-                                            <strong style="font-size: 1.3em">Pamonha de Panela de Pressão</strong>
-                                        </a>
-                                    </div>
-                                    <div class="col-4 my-auto">
-                                        <a id="btn-card" type="button" href="/receita-5" class="btn-receita">
-
-                                            <i id="btn-inside" class="fas fa-angle-right"></i>
-                                        </a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-md-6 col-lg-4 d-flex align-items-stretch mb-3 mb-sm-none">
-                    <div class="card receita-page-dif card-hover navbar-item-hover">
-                        <a href="/receita-6"><img id="card-img" class="card-img-top" src="images/receita-6.jpg"
-                                alt="Card image cap"></a>
-                        <div class="card-body">
-                            <div class="container p-3">
-                                <div class="row">
-                                    <div class="col-8 my-auto">
-                                        <a href="/receita-6" style="color: rgb(65, 65, 65);"
-                                            class="nav-link navbar-item-hover" aria-current="page" href="/index.html">
-                                            <strong style="font-size: 1.3em">Paçoca Caseira</strong>
-                                        </a>
-                                    </div>
-                                    <div class="col-4 my-auto">
-                                        <a id="btn-card" type="button" href="/receita-6" class="btn-receita">
-
-                                            <i id="btn-inside" class="fas fa-angle-right"></i>
-                                        </a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-
-
 
 
             </div>
 
-
-
+            <!--pagination-->
+            <div class="row">
+                <nav aria-label="page navigation">
+                    <ul class="pagination justify-content-center">
+                      <li class="page-item active" aria-current="page"><a class="page-link" href="#">1</a></li>
+                      <li class="page-item"><a class="page-link" href="#">2</a></li>
+                      <li class="page-item"><a class="page-link" href="#">3</a></li>
+                      <li class="page-item">
+                        <a class="page-link" href="#" aria-label="Next">
+                          <span aria-hidden="true">&raquo;</span>
+                        </a>
+                      </li>
+                    </ul>
+                  </nav>
+            </div>
         </div>
-
 
     </div>
 
@@ -345,7 +332,7 @@
 
                 <!--coluna intranet-->
                 <div class="col-sm-4 mb-4 mb-sm-none">
-                    <img src="images/logo_3.png">
+                    <img src="../images/logo_3.png">
                     <p style="font-size: 0.8em;">Economia dia a dia!</p>
                     <h5>Intranet</h5>
 
@@ -390,27 +377,27 @@
 
                         <li class="nav-item mb-2">
                             <a style="font-size: 0.85em;" class="nav-link  p-0" aria-current="page"
-                                href="/quem-somos.html">
+                                href="/pages/quem-somos.html">
                                 <span class="d-inline">Quem Somos</span>
                             </a>
                         </li>
 
                         <li class="nav-item mb-2">
                             <a style="font-size: 0.85em;" class="nav-link p-0" aria-current="page"
-                                href="/receitas.html">
+                                href="/pages/receitas.html">
                                 <span class="d-inline">Receitas</span>
                             </a>
                         </li>
 
                         <li class="nav-item mb-2">
                             <a style="font-size: 0.85em;" class="nav-link p-0" aria-current="page"
-                                href="/noticias.html">
+                                href="/pages/noticias.html">
                                 <span class="d-inline">Notícias</span>
                             </a>
                         </li>
 
                         <li class="nav-item mb-2">
-                            <a style="font-size: 0.85em;" class="nav-link p-0" aria-current="page" href="/contato.html">
+                            <a style="font-size: 0.85em;" class="nav-link p-0" aria-current="page" href="/pages/contato.html">
                                 <span class="d-inline">Contato</span>
                             </a>
                         </li>
@@ -432,10 +419,10 @@
 
                         <!--mobile-->
                         <div class="d-block d-sm-none p-1">
-                            <a href="https://play.google.com/site"><img width="120vw" src="images/google-play.png"></a>
+                            <a href="https://play.google.com/site"><img width="120vw" src="../images/google-play.png"></a>
                         </div>
                         <div class="d-block d-sm-none p-1">
-                            <a href="https://apple.store.com/site"><img width="120vw" src="images/app-store.png"></a>
+                            <a href="https://apple.store.com/site"><img width="120vw" src="../images/app-store.png"></a>
                         </div>
 
                         <!--desktop-->
@@ -443,18 +430,18 @@
                             <div class="row">
                                 <div class="col-md-6 p-1">
                                     <a href="https://play.google.com/site"><img width="100%"
-                                            src="images/google-play.png"></a>
+                                            src="../images/google-play.png"></a>
                                 </div>
                                 <div class="col-md-6 p-1">
                                     <a href="https://apple.store.com/site"><img width="100%"
-                                            src="images/app-store.png"></a>
+                                            src="../images/app-store.png"></a>
                                 </div>
                             </div>
                         </div>
                     </div>
                     <h5>Pague Com</h5>
                     <div class="d-flex p-2">
-                        <img width="95%" src="images/bandeiras-cartoes-pb-3.png">
+                        <img width="95%" src="../images/bandeiras-cartoes-pb-3.png">
                     </div>
 
                 </div>
@@ -481,10 +468,10 @@
 
 
 
-    <script src="js/jquery-3.6.0.js"></script>
-    <script src="js/popper.min.js"></script>
-    <script src="js/bootstrap.bundle.js"></script>
-    <script src="js/script.js"></script>
+    <script src="../js/jquery-3.6.0.js"></script>
+    <script src="../js/popper.min.js"></script>
+    <script src="../js/bootstrap.bundle.js"></script>
+    <script src="../js/script.js"></script>
 </body>
 
 </html>
