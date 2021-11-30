@@ -159,7 +159,7 @@ O TEXTO NÃO PRECISA SER RESPONSIVO EM TUDO
 /* imagem de fundo */
 
 .efeito-parallax {
-    background-image: url("/images/gatinhos.png");
+    background-image: url("../images/gatinhos.png");
     height: 70vh;
     background-attachment: fixed;
     background-position: center;
