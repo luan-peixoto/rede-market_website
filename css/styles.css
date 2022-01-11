@@ -433,7 +433,6 @@ O TEXTO NÃO PRECISA SER RESPONSIVO EM TUDO
 }
 
 .fade-in {
-    display: block;
     -webkit-animation: fade-in 0.3s linear forwards;
     animation: fade-in 0.3s linear forwards;
     opacity: 0;
@@ -452,3 +451,6 @@ O TEXTO NÃO PRECISA SER RESPONSIVO EM TUDO
     }
 }
 
+.show {
+    display: block;
+}
